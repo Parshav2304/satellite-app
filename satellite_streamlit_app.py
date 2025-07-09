@@ -80,15 +80,6 @@ st.sidebar.markdown('</div>', unsafe_allow_html=True)
 
 st.sidebar.markdown("### 📊 Statistics")
 st.sidebar.metric("Total Analyses", st.session_state.analysis_count)
-st.sidebar.metric(
-    "Regions Analyzed", 
-    len(set([item['region'] for item in st.session_state.history]))
-)
-avg_conf = (
-    np.mean([item['confidence'] for item in st.session_state.history]) 
-    if st.session_state.history else 0
-)
-st.sidebar.metric("Avg Confidence", f"{avg_conf:.1f}%")
 
 # 🖼️ Header
 st.markdown("""
