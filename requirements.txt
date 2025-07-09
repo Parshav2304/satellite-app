@@ -7,3 +7,4 @@ seaborn
 pandas
 scikit-learn
 tf-nightly-cpu
+plotly
