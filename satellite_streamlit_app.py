@@ -21,7 +21,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main-header {
-        background: linear-gradient(90deg, #2E8B57, #228B22, #32CD32);
+        background: linear-gradient(90deg, #2E8B57, #328B22, #32CD62);
         padding: 2rem;
         border-radius: 15px;
         margin-bottom: 2rem;
@@ -94,7 +94,6 @@ st.sidebar.metric("Avg Confidence", f"{avg_conf:.1f}%")
 st.markdown("""
 <div class="main-header">
     <h1>Satellite Image Classifier</h1>
-    <p>AI-powered predictions from space data 🚀</p>
 </div>
 """, unsafe_allow_html=True)
 
