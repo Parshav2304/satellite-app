@@ -4,5 +4,5 @@ numpy
 matplotlib
 seaborn
 Pillow
-tensorflow-cpu
+tf-nightly-cpu
 scikit-learn
