@@ -1,8 +1,10 @@
 streamlit
-pandas
+tensorflow
 numpy
+pillow
+opencv-python
 matplotlib
 seaborn
-Pillow
-tf-nightly-cpu
+pandas
 scikit-learn
+tf-nightly-cpu
